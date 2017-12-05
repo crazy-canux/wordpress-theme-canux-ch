@@ -10,7 +10,7 @@
   <?php $qq_tu=get_option('mytheme_qq_tu');if(get_option('mytheme_kefu_qq') !==""){ ?>
   <div class="kefu_d" id="kefu_severs">
     <div class="qq_kefu">
-      <img src="<?php if($qq_tu==""){ echo get_bloginfo('template_url').'/images/kf_canux.jpg';}else{echo $qq_tu; } ?>" />
+      <img src="<?php if($qq_tu==""){ echo get_bloginfo('template_url').'/images/kf.jpg';}else{echo $qq_tu; } ?>" />
       <p><?php echo get_option('mytheme_tell'); ?></p>
       <p><?php echo  get_option('mytheme_mail'); ?></p>
       <?php echo stripslashes(get_option('mytheme_kefu_qq')); ?>

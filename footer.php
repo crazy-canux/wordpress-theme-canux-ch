@@ -61,7 +61,7 @@ $gongan_b_link=get_option('mytheme_gongan_b_link');
       for($i=0;$i<count($contact_text);$i++) {
           echo'<p class="contact_text_p">'.$contact_text[$i].'</p>';
       }
-  }else{echo '<p class="contact_text_p">联系电话: +86-13681984515 </p><p class="contact_text_p">联系邮箱：canuxcheng@gmail.com</p><p class="contact_text_p"> 联系地址：上海市</p>';}
+  }else{echo '<p class="contact_text_p">联系电话: +86-13681984515 </p><p class="contact_text_p">电子邮箱：canuxcheng@gmail.com</p><p class="contact_text_p"> 联系地址：上海市</p>';}
   ?>
 </div>
 

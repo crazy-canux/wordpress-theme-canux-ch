@@ -9,7 +9,7 @@
 
 
         <div id="severs_nav">
-        <div class="severs_nav_titile"><img class="post_form_img" src="<?php if($mytheme_form_img){echo $mytheme_form_img;}else{echo get_bloginfo('template_url').'/images/liucheng.png';} ?>" /><p><strong><?php if($form_title){echo $form_title;}else{echo '服务流程';} ?></strong><br /><?php if($form_title2){echo $form_title2;}else{echo 'Process';} ?></p></div>
+        <div class="severs_nav_titile"><img class="post_form_img" src="<?php if($mytheme_form_img){echo $mytheme_form_img;}else{echo get_bloginfo('template_url').'/timages/liucheng.png';} ?>" /><p><strong><?php if($form_title){echo $form_title;}else{echo '服务流程';} ?></strong><br /><?php if($form_title2){echo $form_title2;}else{echo 'Process';} ?></p></div>
 
 
            <?php
